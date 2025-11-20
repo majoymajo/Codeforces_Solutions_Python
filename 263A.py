@@ -1,0 +1,9 @@
+matrix = []
+for i in range(5):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+    if 1 in row:
+        x, y = i + 1, row.index(1) + 1  
+
+moves = abs(x - 3) + abs(y - 3)
+print(moves)
