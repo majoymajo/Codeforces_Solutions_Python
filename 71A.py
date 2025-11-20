@@ -1,5 +1,6 @@
 ----Way Too Long Words----
 
+
 num_words = int(input())
 for _ in range(num_words):
     word = input().strip()
